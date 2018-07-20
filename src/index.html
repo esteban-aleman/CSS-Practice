@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
   <title>Esteban | Layout</title>
-  <meta name="description" content="A little layout practice">
+  <meta name="description" content="A little floated layout practice">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <link rel="icon" href="favicon.ico" type="image/x-icon">
   <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
@@ -21,37 +21,32 @@
 
   <header>
     <nav>
-      <p class="logo">logo</p>
-      <p class="navMenu">navigation menu</p>
+      <p class="fl">logo</p>
+      <p class="fr">navigation menu</p>
     </nav>
   </header>
   <main class="cf">
-    <section class="contentSlider">content slider</section>
+    <article>content slider</article>
     <section class="cf">
-      <section class="sideContainerL cf">
-        <section class="tpSection cf">
-          <article class="smArticle">infoBox</article>
-          <article class="smArticle">infoBox</article>
-          <article class="smArticle">infoBox</article>
-          <article class="smArticle smArticleR">infoBox</article>
+      <section class="w75 fl cf">
+        <section class="cf">
+          <article class="w20 mr6 fl">infoBox</article>
+          <article class="w20 mr6 fl">infoBox</article>
+          <article class="w20 mr6 fl">infoBox</article>
+          <article class="w20 fl">infoBox</article>
         </section>
-        <section class="btSection cf">
-          <article class="mdArticle">infoBox</article>
-          <article class="mdArticleR">infoBox</article>
+        <section class="cf">
+          <article class="w48 fl">infoBox</article>
+          <article class="w48 fr">infoBox</article>
         </section>
       </section>
-      <section class="sideContainerR">
+      <aside class="w20 fr">
         infoBox
-      </section>
+      </aside>
     </section>
   </main>
   <footer>
     <p>Footer</p>
   </footer>
-
-  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-  <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.3.1.min.js"><\/script>')</script>
-  <script src="js/plugins.js"></script>
-  <script src="js/main.js"></script>
 </body>
 </html>
