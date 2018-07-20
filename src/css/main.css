@@ -1,33 +1,52 @@
 /* base styles */
-body {
-  margin: 0;
+body{
+  margin: 5%;
 }
-
+main{
+  padding: 2% 0;
+}
 p {
   margin: 0;
 }
-
 header {
   background-color: #BBB;
   padding: 30px;
 }
-
-main {
-  padding: 30px;
-}
-
-main div div {
-  float: left;
-  width: 50%;
-}
-
-main > div {
-  background-color: yellow;
-}
-
 footer {
   background-color: #888;
   padding: 30px;
+}
+article, aside{
+  box-sizing: border-box;
+  border: 2px solid #b6b6b6;
+  height: 100px;
+  margin-bottom: 30px;
+}
+aside{
+  height: 230px;
+}
+
+/* Floated layouts */
+.fl{
+  float: left;
+}
+.fr{
+  float: right;
+}
+.w20{
+  width: 20%;
+}
+.w30{
+  width: 30%;
+}
+.w48{
+  width: 48%;
+}
+.w75{
+  width: 75%;
+}
+.mr5{
+  margin-right:5%;
 }
 
 /**
@@ -45,74 +64,6 @@ footer {
 
 
 /** /////////////////////////////*/
-body{
-  margin: 5%;
-}
-.header{
-  background-color: aqua;
-}
-main{
-  padding: 2% 0;
-}
-.logo{
-  float:left;
-}
-.navMenu{
-  float: right;
-}
-.contentSlider{
-  background-color: aqua;
-  margin-bottom: 2%;
-  height: 100px;
-}
-.sideContainerL{
-  float: left;
-  width: 77%;
-}
-.sideContainerR{
-  float: right;
-  background-color: red;
-  width: 20%;
-  height: 230px;
-}
-.smArticle{
-  float: left;
-  background-color: red;
-  width: 30%;
-  margin-right:5%;
-  height: 100px;
-}
-.smArticleC{
-  float: left;
-  background-color: red;
-  width: 30%;
-  margin-left:auto;
-  margin-right: auto;
-  height: 100px;
-}
-.smArticleR{
-  float: right;
-  background-color: red;
-  width: 30%;
-  height: 100px;
-}
-.mdArticle{
-  float: left;
-  background-color: red;
-  width: 48%;
-  height: 100px;
-}
-.mdArticleR{
-  float: right;
-  background-color: red;
-  width: 48%;
-  height: 100px;
-}
-.tpSection{
-  margin-bottom: 30px;
-}
-footer{
 
-}
 
 
